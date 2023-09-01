@@ -41,8 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         ImageView iv_test = findViewById(R.id.iv_test);
         MaterialLoadingRenderer.Builder builder = new MaterialLoadingRenderer.Builder(this);
-        builder.setWidth(250);
-        builder.setHeight(250);
+        builder.setWidth(400);
+        builder.setHeight(400);
+        builder.setCenterRadius(100);
         LoadingDrawable drawable = new LoadingDrawable(builder.build());
         iv_test.setImageDrawable(drawable);
         drawable.start();
