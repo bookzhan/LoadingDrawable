@@ -9,9 +9,8 @@ import android.graphics.Path;
 import android.graphics.PathMeasure;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.support.v7.widget.ViewUtils;
-import android.util.DisplayMetrics;
-import android.util.Log;
+import androidx.appcompat.widget.ViewUtils;
+
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;

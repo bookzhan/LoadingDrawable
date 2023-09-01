@@ -7,9 +7,8 @@ import android.graphics.ColorFilter;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
-import android.util.DisplayMetrics;
-import android.util.TypedValue;
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
+
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
