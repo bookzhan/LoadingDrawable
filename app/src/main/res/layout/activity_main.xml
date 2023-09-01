@@ -1,10 +1,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginTop="50dp"
     android:gravity="center"
     android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_test"
+        android:layout_width="match_parent"
+        android:background="#FEFFCC"
+        android:layout_height="180dp" />
 
     <Button
         android:id="@+id/shape_change"
@@ -17,7 +21,7 @@
         android:id="@+id/goods"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="GoodsActivity"
         android:textAllCaps="false" />
 
@@ -25,7 +29,7 @@
         android:id="@+id/animal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="AnimalActivity"
         android:textAllCaps="false" />
 
@@ -33,7 +37,7 @@
         android:id="@+id/scenery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="SceneryActivity"
         android:textAllCaps="false" />
 
@@ -41,7 +45,7 @@
         android:id="@+id/circle_rotate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="CircleRotateActivity"
         android:textAllCaps="false" />
 
@@ -49,7 +53,7 @@
         android:id="@+id/circle_jump"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="CircleJumpActivity"
         android:textAllCaps="false" />
 

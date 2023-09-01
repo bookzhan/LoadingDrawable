@@ -109,8 +109,8 @@ public abstract class LoadingRenderer {
 
     private void setupAnimators() {
         mRenderAnimator = ValueAnimator.ofFloat(0.0f, 1.0f);
-        mRenderAnimator.setRepeatCount(Animation.INFINITE);
-        mRenderAnimator.setRepeatMode(Animation.RESTART);
+        mRenderAnimator.setRepeatCount(ValueAnimator.INFINITE);
+        mRenderAnimator.setRepeatMode(ValueAnimator.RESTART);
         mRenderAnimator.setDuration(mDuration);
         //fuck you! the default interpolator is AccelerateDecelerateInterpolator
         mRenderAnimator.setInterpolator(new LinearInterpolator());

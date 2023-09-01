@@ -1,6 +1,7 @@
 package app.dinus.com.loadingdrawable.render;
 
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.ColorFilter;
 import android.graphics.PixelFormat;
 import android.graphics.Rect;

@@ -4,6 +4,12 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+
+import app.dinus.com.loadingdrawable.render.LoadingDrawable;
+import app.dinus.com.loadingdrawable.render.LoadingRenderer;
+import app.dinus.com.loadingdrawable.render.circle.rotate.MaterialLoadingRenderer;
+import app.dinus.com.loadingdrawable.render.circle.rotate.WhorlLoadingRenderer;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -32,6 +38,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnCircleJump.setOnClickListener(this);
         mBtnShapeChange.setOnClickListener(this);
         mBtnCircleRotate.setOnClickListener(this);
+
+        ImageView iv_test = findViewById(R.id.iv_test);
+        MaterialLoadingRenderer.Builder builder = new MaterialLoadingRenderer.Builder(this);
+        builder.setWidth(250);
+        builder.setHeight(250);
+        LoadingDrawable drawable = new LoadingDrawable(builder.build());
+        iv_test.setImageDrawable(drawable);
+        drawable.start();
     }
 
     @Override
